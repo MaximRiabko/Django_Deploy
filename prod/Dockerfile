@@ -3,7 +3,7 @@ FROM python:3.11
 ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
-в
+
 COPY requirements.txt requirements.txt
 
 RUN pip install --upgrade pip
